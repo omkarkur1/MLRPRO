@@ -3,6 +3,8 @@ import numpy as np
 import re
 import os
 import PyPDF2
+import nltk
+nltk.download('stopwords')
 from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import stopwords
 from flask import render_template, Flask, request
