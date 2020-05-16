@@ -5,6 +5,7 @@ import os
 import PyPDF2
 import nltk
 nltk.download('stopwords')
+from flask_ngrok import run_with_ngrok
 from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import stopwords
 from flask import render_template, Flask, request
@@ -118,6 +119,6 @@ def about():
 
 
 
-
+run_with_ngrok(app)
 if __name__ == "__main__":
     app.run()
