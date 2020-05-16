@@ -1,6 +1,5 @@
 pandas
 numpy
-os
 PyPDF2
 nltk
 flask
