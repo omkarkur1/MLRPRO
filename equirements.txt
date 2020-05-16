@@ -1,8 +1,0 @@
-pandas
-numpy
-re
-os
-PyPDF2
-nltk
-flask
-sklearn
